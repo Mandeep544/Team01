@@ -9,7 +9,7 @@ package team01activity;
  *
  * @author Mandeep Kaur
  */
-public class item extends Order_Detail {
+public class item  {
     
     
     
