@@ -10,12 +10,10 @@ package team01activity;
  * @author 1894343
  */
 public class Credit extends Payment {
-    public Credit(String name, String type, String expDate){
-        super(name,type,expDate);
+
+    public Credit(float theamount) {
+        super(theamount);
     }
-    
-    public void authorized(){
-        System.out.println("authorized payment:");
-    }
+   
     
 }
