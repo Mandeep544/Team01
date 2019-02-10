@@ -9,7 +9,7 @@ package team01activity;
  *
  * @author Mandeep Kaur
  */
-public class Order_Detail extends Order{
+public class Order_Detail{
     int Quantity;
     String tax_Status;
     
