@@ -29,8 +29,6 @@ public class Order_Detail extends Order{
         return tax_Status;
     }
     
-    
-    
     public void setQuantity(int Q)
     {
         this.Quantity=Q;
