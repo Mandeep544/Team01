@@ -15,9 +15,9 @@ import java.util.Date;
 public class Order {
     Date date= parseDate("2019-2-10");
     String status;
-    public void Order(Date date,String status)
+    public void Order(String status)
     {
-        this.date=date;
+   
         this.status=status;
        
     }
