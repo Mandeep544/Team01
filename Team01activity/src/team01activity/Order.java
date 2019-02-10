@@ -15,6 +15,7 @@ import java.util.Date;
 public class Order {
     Date date= parseDate("2019-2-10");
     String status;
+    customer c= new customer("pavani","catherine");
     public void Order(String status)
     {
    
@@ -31,7 +32,7 @@ public class Order {
     }
     public void setdate(Date d)
     {
-        this.date=d;
+        date=d;
     }
     public Date getdate()
     {
