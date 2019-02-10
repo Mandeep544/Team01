@@ -3,20 +3,22 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package team01activity;
 
 /**
  *
  * @author temp
  */
-public class payment {
+public class Payment {
+       float amount;
+      
     
-    float amount;
-    
-    public payment(float theamount)
+    public Payment(float theamount)
     {
         this.amount=theamount;
     }
-    
+   
+  
     public void setamount(float amount)
     {
         this.amount=amount;
@@ -26,3 +28,5 @@ public class payment {
         return amount;
     }
 }
+    
+
