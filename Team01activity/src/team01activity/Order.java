@@ -18,8 +18,13 @@ public class Order {
     customer c= new customer("pavani","catherine");
     public void Order(String status)
     {
+        this.status = status;
+    }
+    public Order(String s)
+    {
    
-        this.status=status;
+        this.status=s;
+        
        
     }
     public void Setstatus(String s)
@@ -56,7 +61,7 @@ public class Order {
     }
     public void display()
     {
-        System.out.println("Order date is:"+date+"status"+status);
+        System.out.println("Order date is: "+date+"status "+status);
     }
     public static Date parseDate(String date)
     {
