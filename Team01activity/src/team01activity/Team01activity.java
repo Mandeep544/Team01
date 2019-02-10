@@ -16,6 +16,11 @@ public class Team01activity {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Order o=new Order(1234);
+        o.confirm();
+        
+        Payment p=new Payment(212);
+        p.confirm();
     }
     
 }
