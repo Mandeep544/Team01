@@ -9,13 +9,13 @@ package team01activity;
  *
  * @author 1894343
  */
-public class Check extends {
-     public Check(String Name, String bankid){
-        super(Name,bankid);
+public class Check extends Payment {
+ String name;
+ String bankid;
+ 
+    public Check(float theamount) {
+        super(theamount);
     }
-    
-    public void authorized(){
-        System.out.println("authorized payment:");  
-    }
+ 
 }    
 
