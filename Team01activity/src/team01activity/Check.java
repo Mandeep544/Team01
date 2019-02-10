@@ -16,6 +16,6 @@ public class Check extends Payment {
     public Check(float theamount) {
         super(theamount);
     }
- 
-}    
+  
+}
 
